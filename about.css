@@ -1,0 +1,176 @@
+:root {
+    --neonGreen: #39ff14;
+    --royalPurple: #7851a9;
+    --deepRed: #850101;
+    --darkColor: #1a0600;
+    --lightColor: rgb(242, 235, 235);
+    --pd: 5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Noto Serif', serif;
+}
+
+body {
+    background-color: var(--darkColor);
+}
+
+
+/* the first type of span */
+.firstSpan {
+    color: var(--deepRed);
+    transition: 0.3s;
+}
+.firstSpan:hover {
+    color: var(--lightColor);
+}
+
+
+/* the second typr of span */
+.secondSpan {
+    color: var(--lightColor);
+}
+
+
+/* the third type of span */
+.thirdSpan {
+    color: var(--darkColor);
+    transition: 0.3s;
+}
+.thirdSpan:hover {
+    color: var(--lightColor);
+}
+
+
+
+
+p {
+    color: var(--lightColor);
+    text-transform: capitalize;
+}
+
+
+hr {
+    border: 1.5px solid var(--deepRed);
+}
+
+
+
+   /***********************/
+  /* all about buttons : */
+ /***********************/
+
+button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 14px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}button:hover {
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.03);
+}
+/* the first type of buttons */
+.button1 {
+    color: var(--darkColor);
+    background-color: var(--deepRed);
+    border: 2.5px solid var(--deepRed);
+    transition: 0.6s;
+}.button1:hover {
+    
+    background-color: var(--darkColor);
+    color: var(--deepRed);
+}
+/* the second type of buttons */
+.button2 {
+    color: var(--deepRed);
+    background-color: var(--darkColor);
+    border: 2.5px solid var(--darkColor);
+    transition: 0.6s;
+}.button2:hover {
+    background-color: var(--deepRed);
+    color: var(--darkColor);
+}
+
+
+   /*********************************/
+  /* all about interview section : */
+ /*********************************/
+
+.interviewSection {
+    padding: var(--pd);
+}
+.socialMedia-icon{
+    padding-left: 5px;
+    transition: 0.3s;
+}
+
+.socialMedia-icon:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+  /******************************************************/
+ /* all about aboutSection that talking about myself : */
+/******************************************************/
+
+.aboutSection {
+    background-color: var(--deepRed);
+    padding: var(--pd);
+    
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /***********************************/
+ /* all about about skils section : */
+/***********************************/
+.skilSection {
+    background-color: var(--darkColor);
+    padding: var(--pd);
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.language {
+    padding: 20px;
+    border: 4px solid var(--deepRed);
+    border-radius: 14px;
+    width: 250px;
+    height: 300px;
+}
+.language img {
+    transition: 0.3s;
+}
+.language img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+

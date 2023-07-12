@@ -1,0 +1,285 @@
+:root {
+    --neonGreen: #39ff14;
+    --royalPurple: #7851a9;
+    --deepRed: #850101;
+    --darkColor: #1a0600;
+    --lightColor: rgb(242, 235, 235);
+    --pd: 5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Noto Serif', serif;
+}
+
+body {
+    background-color: var(--darkColor);
+}
+
+
+
+/* the first type of span */
+.firstSpan {
+    color: var(--deepRed);
+    transition: 0.3s;
+}
+.firstSpan:hover {
+    color: var(--lightColor);
+}
+
+
+/* the second typr of span */
+.secondSpan {
+    color: var(--lightColor);
+    transition: 0.3s;
+}
+.secondSpan:hover {
+    color: var(--darkColor);
+}
+
+/* the third type of span */
+.thirdSpan {
+    color: var(--darkColor);
+    transition: 0.3s;
+}
+.thirdSpan:hover {
+    color: var(--lightColor);
+}
+
+
+p {
+    color: var(--lightColor);
+    text-transform: capitalize;
+}
+
+
+hr {
+    border: 1.5px solid var(--deepRed);
+}
+
+
+
+
+
+
+
+
+   /******************************/
+  /* all about navigation bar : */
+ /******************************/
+
+nav {
+    padding-top: 44.8px;
+    padding-left: var(--pd);
+    padding-right: var(--pd);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+  nav ul img {
+    margin-right: 30px;
+    transition: 0.3s;
+  }
+  nav ul img:hover {
+    transform: scale(1.2);
+  }
+
+
+
+
+
+  nav ul li {
+    color: var(--lightColor);
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    color: var(--lightColor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s;
+  }
+  nav ul li a:hover {
+    color: var(--deepRed);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*********************/
+  /* all about buttons */
+ /*********************/
+button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 14px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}button:hover {
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.03);
+}
+/* the first type of buttons */
+.button1 {
+    color: var(--darkColor);
+    background-color: var(--deepRed);
+    border: 2.5px solid var(--deepRed);
+    transition: 0.6s;
+}.button1:hover {
+    
+    background-color: var(--darkColor);
+    color: var(--deepRed);
+}
+/* the second type of buttons */
+.button2 {
+    color: var(--deepRed);
+    background-color: var(--darkColor);
+    border: 2.5px solid var(--darkColor);
+    transition: 0.6s;
+}.button2:hover {
+    background-color: var(--deepRed);
+    color: var(--darkColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+   /***********************/
+  /* interview section : */
+ /***********************/
+.interviewSection{
+    padding-top: var(--pd);
+    padding-right: var(--pd);
+    padding-left: var(--pd,);
+    text-align: center;
+}
+.interviewSection .about{
+    padding: 20px;
+    border: 4px solid var(--deepRed);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+   /*******************/
+  /* albums section  */
+ /*******************/
+.albumSection {
+    background-color: var(--deepRed);
+    padding: var(--pd);
+}
+.albums{
+    display: flex;
+    justify-content: space-around;
+}
+.album {
+    text-align: center;
+    border: 5px solid var(--darkColor);
+    border-radius: 14px;
+    padding: 20px;
+    height: 430px;
+    width: 300px;
+}
+.album img {
+    transition: 0.3s;
+}
+.album img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*****************************/
+ /* all about songs section : */
+/*****************************/
+.songSection {
+    background-color: var(--darkColor);
+    padding: var(--pd);
+}
+
+.song1 {
+    border: 2px solid var(--deepRed);
+    border-radius: 14px;
+    padding: 10px;
+    width: 590px;
+    height: 100%;
+}
+.firstSongs {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.song2 {
+    border: 2px solid var(--deepRed);
+    border-radius: 14px;
+    padding: 10px;
+    width: 590px;
+    height: 100%;
+}
+.secondSongs {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+   /**********************/
+  /* the last section : */
+ /**********************/
+.endSection {
+    background-color: var(--deepRed);
+    padding: var(--pd);
+}
+.end {
+    text-align: center;
+}
